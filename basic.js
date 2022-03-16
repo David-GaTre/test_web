@@ -3,12 +3,12 @@ var app = new Vue({
     data: {
         message: 'Hello David!',
         pags:[
-            { message:"primer pagina ok"  },
-            { message:"Segunda pagina Nok" },
-            { message:'Tercer pagina ok' },
+            { message: "First"},
+            { message: "Second"},
+            { message: "Third"},
         ],
-        name: 'Desarrollo WEB',
-        dt: '15 mar 2022',
-        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png'
+        name: 'Super Dev',
+        dt: '16 mar 2022',
+        img: './test.png'
     }
 });
