@@ -1,11 +1,23 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <title>
-            TestWeb
-        </title>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
     <body>
-        <h1>Hello</h1>
+        <div id="app">
+            {{ message }}
+        
+           <ol>
+               <li v-for="msg in pags">
+                 {{ msg.message }}
+               </li>
+           </ol>
+           <p> Nombre de autor {{name}}</p>
+           <p> fecha {{dt}}</p>
+        
+            <div> 
+             <img style="width:100px;height:100px" v-bind:src="img">
+            </div>
+        </div>
+        <script src="basic.js"></script>
     </body>
 </html>

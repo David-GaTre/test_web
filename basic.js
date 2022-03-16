@@ -9,6 +9,6 @@ var app = new Vue({
         ],
         name: 'Desarrollo WEB',
         dt: '15 mar 2022',
-        imag:'https://gacetamedica.com/wp-content/uploads/2021/02/GettyImages-1201463812.jpg'
+        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png'
     }
 });
